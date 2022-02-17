@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.header{
+    background-image: url(./../img/maxresdefault.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: relative;
+    background-attachment: top;
+    height: 45vw;
+    width: 100vw;
+}
+
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    font-family: 'Comfa';
+    font-size: 1.5rem;
+    position: sticky;
+    bottom: 0%;
+} 
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    background-color: #FF6700;
+    padding-left: 70px;
+    padding-right: 70px;
+    overflow: hidden;
+}
+
+h1{
+    padding-top: 15px;
+}
+
+li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;  
+}
+
+@media only screen and (min-width: 800px){
+    li{
+        width: 100vw; 
+    } 
+}
+@media only screen and (min-width: 801px){
+    li{
+       width: 40vw;
+    }
+}    
+
+li a{
+    color: rgb(255, 255, 255);
+    display: block;
+    font-size: 2.5rem;
+    font-family: 'Comfa';
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li:hover{
+    background-color: #FF6700;
+    opacity: 45%;
+    color: #fff;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+}
+
+#Xiaomi{
+    background-color: #fff;
+    padding: 0;
+    margin: 35px;
+    text-align: center; 
+}
+
+#Redmi{
+    background-color: #fff;
+    padding: 0;
+    margin: 35px;
+    text-align: center;
+}
+
+.container1{
+    background-color: rgb(226, 219, 219);
+}
+
+.container2{
+    background-color: rgb(226, 219, 219);
+}
+
+.slider {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+@media only screen and (min-width: 800px){
+    img{
+        width: 100%; 
+    } 
+}
+@media only screen and (min-width: 801px){
+    img{
+       width: 40%;
+    }
+} 
